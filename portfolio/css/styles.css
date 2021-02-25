@@ -45,16 +45,16 @@ html, body{
 .btn{
     margin:auto;
     border: 1px solid #000000;
-    width: 10em;
+    width: 7em;
     height: 2.4em;
     font-family: 'Philosopher', sans-serif;
     color: white;
     cursor: pointer;
     border-radius: 7px;
     background-color: #9499b7;
-    font-size: 13px;
+    font-size: 15px;
     transition-property: border, background-color;
-    transition-duration: 50ms;
+    transition-duration: 25ms;
     transition-timing-function: case-in-out;
 
     
@@ -65,7 +65,7 @@ html, body{
     background-color: transparent;
 
 }
-a{
+.header-info .btn a{
     text-decoration: none;
     color: white
 }
@@ -166,4 +166,25 @@ a{
     font-family: 'Philosopher', sans-serif;
     border-bottom: 3px solid #9499b7;
 
+}
+.footer {
+    background-color: black;
+    text-align: right;
+    padding: 2.5em 0;
+    font-size: 50px;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.list-item {
+    margin: 0 1.5em;
+}
+.item-link {
+    text-decoration: none;
+    color: #9499b7;
+    padding: 0.5em;
 }
